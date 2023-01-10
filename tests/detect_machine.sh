@@ -130,7 +130,7 @@ esac
 
 # Overwrite auto-detect with RT_MACHINE if set
 MACHINE_ID=${RT_MACHINE:-${MACHINE_ID}}
-
+MACHINE_ID="singularity"
 # Append compiler
 #if [ $MACHINE_ID = orion ] || [ $MACHINE_ID = hera ] || [ $MACHINE_ID = cheyenne ] || [ $MACHINE_ID = jet ] || [ $MACHINE_ID = gaea ] || [ $MACHINE_ID = stampede ] || [ $MACHINE_ID = s4 ]; then
 #    MACHINE_ID=${MACHINE_ID}.${RT_COMPILER}
